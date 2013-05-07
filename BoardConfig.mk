@@ -31,6 +31,3 @@ TARGET_OTA_ASSERT_DEVICE := jfltecan
 
 # Kernel
 TARGET_KERNEL_CONFIG         := jf_can_defconfig
-TARGET_KERNEL_VARIANT_CONFIG := cyanogen_jf_defconfig
-TARGET_KERNEL_SELINUX_CONFIG := jfselinux_defconfig
-
