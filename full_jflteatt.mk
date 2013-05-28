@@ -24,12 +24,17 @@
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-# Inherit from jfltecan device
-$(call inherit-product, device/samsung/jfltecan/device.mk)
+# Inherit from jflteatt device
+$(call inherit-product, device/samsung/jflteatt/device.mk)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_jfltevl
-PRODUCT_DEVICE := jfltecan
+PRODUCT_DEVICE := jflteatt
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_MODEL := SGH-I337M
+PRODUCT_MODEL := SGH-I337
+
+# loki
+PRODUCT_COPY_FILES += \
+    device/samsung/jflteatt/loki/loki.sh:system/bin/loki.sh \
+    device/samsung/jflteatt/loki/loki_patch:system/bin/loki_patch
