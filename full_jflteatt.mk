@@ -34,7 +34,6 @@ PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := SGH-I337
 
-# loki
-PRODUCT_COPY_FILES += \
-    device/samsung/jflteatt/loki/loki.sh:system/bin/loki.sh \
-    device/samsung/jflteatt/loki/loki_patch:system/bin/loki_patch
+PRODUCT_PACKAGES += \
+    loki_patch \
+    loki.sh
