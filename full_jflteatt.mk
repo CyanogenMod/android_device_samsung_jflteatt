@@ -36,4 +36,5 @@ PRODUCT_MODEL := SGH-I337
 
 PRODUCT_PACKAGES += \
     loki_patch \
-    loki.sh
+    loki.sh \
+    valid_bootloaders
