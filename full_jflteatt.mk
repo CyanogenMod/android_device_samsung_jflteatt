@@ -38,4 +38,5 @@ PRODUCT_PACKAGES += \
     loki_patch \
     loki_flash \
     loki.sh \
-    valid_bootloaders
+    loki_bootloaders \
+    unlocked_bootloaders
