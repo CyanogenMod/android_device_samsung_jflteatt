@@ -18,11 +18,10 @@
 $(call inherit-product-if-exists, vendor/samsung/jf-gsm-common/jf-gsm-common-vendor.mk)
 
 PRODUCT_PACKAGES += \
-    loki_patch \
-    loki_flash \
+    loki_tool \
     loki.sh \
     loki_bootloaders \
-    unlocked_bootloaders
+    reovery-transform.sh
 
 ## device overlays
 DEVICE_PACKAGE_OVERLAYS += device/samsung/jflteatt/overlay

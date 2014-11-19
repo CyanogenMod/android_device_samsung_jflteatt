@@ -30,5 +30,4 @@ include device/samsung/jf-common/BoardConfigCommon.mk
 TARGET_OTA_ASSERT_DEVICE := jflteatt,jflte
 
 # loki
-TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/jf-common/releasetools
-
+TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/jflteatt/releasetools
