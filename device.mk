@@ -23,6 +23,9 @@ PRODUCT_PACKAGES += \
     loki_bootloaders \
     reovery-transform.sh
 
+PRODUCT_COPY_FILES += \
+    device/samsung/jflteatt/releasetools/loki.sh:install/bin/loki.sh
+
 ## device overlays
 DEVICE_PACKAGE_OVERLAYS += device/samsung/jflteatt/overlay
 
