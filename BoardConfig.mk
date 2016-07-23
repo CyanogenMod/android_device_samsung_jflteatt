@@ -31,3 +31,6 @@ TARGET_OTA_ASSERT_DEVICE := jflteatt,jflte
 
 # loki
 TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/jflteatt/releasetools
+
+# Properties
+TARGET_SYSTEM_PROP += device/samsung/jflteatt/system.prop
